@@ -17,7 +17,7 @@ FFMPEG_BIN = imageio_ffmpeg.get_ffmpeg_exe()
 FFPROBE_BIN = FFMPEG_BIN.replace("ffmpeg", "ffprobe")
 
 # ===== Whisper 配置 (M1 字幕提取) =====
-WHISPER_MODEL_PATH = "C:\\Users\\LENOVO\\.cache\\huggingface\\hub\\models--Systran--faster-whisper-small\\snapshots\\536b0662742c02347bc0e980a01041f333bce120"
+WHISPER_MODEL_PATH = ""
 WHISPER_MODEL_SIZE = "small"  # 可选: tiny/base/small/medium/large-v3
 WHISPER_DEVICE = "cpu"  # GPU
 WHISPER_COMPUTE_TYPE = "float32"  # CPU 使用 float32
